@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-login{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.50);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+.loginform{
+    width: 350px;
+    background-color: white;
+    padding: 30px 20px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,60%);
+}
+.loginform input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.loginform button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
