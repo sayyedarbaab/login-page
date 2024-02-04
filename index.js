@@ -1,18 +1,17 @@
-function showModel(){
-    document.querySelector('.overlay').classList.add('showoverlay');
-    document.querySelector('.loginform').classList.add('showloginform');
+function showModel() {
+  document.querySelector(".overlay").classList.add("showoverlay");
+  document.querySelector(".loginform").classList.add("showloginform");
 }
-function closeModel(){
-    document.querySelector('.overlay').classList.remove('showoverlay');
-    document.querySelector('.loginform').classList.remove('showloginform');
+function closeModel() {
+  document.querySelector(".overlay").classList.remove("showoverlay");
+  document.querySelector(".loginform").classList.remove("showloginform");
 }
 
-var btnClick=document.querySelector('.btn-login');
-btnClick.addEventListener("click",showModel)
+var btnClick = document.querySelector(".btn-login");
+btnClick.addEventListener("click", showModel);
 
+var close = document.querySelector("span");
+close.addEventListener("click", closeModel);
 
-var close=document.querySelector('span');
-close.addEventListener("click",closeModel)
-
-var closeByOverlay=document.querySelector('.overlay')
-closeByOverlay.addEventListener('click',closeModel)
+var closeByOverlay = document.querySelector(".overlay");
+closeByOverlay.addEventListener("click", closeModel);

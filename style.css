@@ -1,62 +1,61 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.btn-login{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
+.btn-login {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
-.overlay{
-    width: 100%;
-    height: 100vh;
-    background: rgba(0,0,0,0.50);
-    position: fixed;
-    top: 0;
-    z-index: -1;
-    opacity: 0;
-    transition: 1s;
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: 1s;
 }
-.showoverlay{
-    opacity: 1;
-    z-index: 1;
+.showoverlay {
+  opacity: 1;
+  z-index: 1;
 }
-.loginform{
-    width: 350px;
-    background-color: white;
-    padding: 30px 20px;
-    position: absolute;
-    left: 50%;
-    top: -50%;
-    transform: translate(-50%,-50%);
-    box-shadow: 0px 0px 10px 3px #ccc;
-    z-index: 9;
-    transition: 2s;
+.loginform {
+  width: 350px;
+  background-color: white;
+  padding: 30px 20px;
+  position: absolute;
+  left: 50%;
+  top: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 3px #ccc;
+  z-index: 9;
+  transition: 2s;
 }
-.showloginform{
-    top: 50%;
+.showloginform {
+  top: 50%;
 }
-.loginform input{
-    width: 100%;
-    height: 35px;
-    margin-bottom: 15px;
+.loginform input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
 }
-.loginform button{
-    background-color: black;
-    color: white;
-    padding: 10px 15px;
+.loginform button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
 }
-.loginform span{
-    position: absolute;
-    background-color: green;
-    color: white;
-    right: 0;
-    top: 0;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-
+.loginform span {
+  position: absolute;
+  background-color: green;
+  color: white;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
 }
